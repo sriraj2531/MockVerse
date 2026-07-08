@@ -27,7 +27,9 @@ export default function ExamExplorer() {
     'Data Analytics',
     'Machine Learning',
     'Deep Learning',
-    'AI Ethics'
+    'AI Ethics',
+    'Natural Language Processing',
+    'Cryptography',
   ];
 
   // Infinite practice modules driven completely by AI generators
