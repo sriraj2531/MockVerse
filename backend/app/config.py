@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     FIREBASE_CREDENTIALS_PATH: str | None = None
 
     # Database Configuration
-    DATABASE_URL: str = "postgresql+asyncpg://postgres:Sriraj251006@localhost:5432/mockverse"
+    DATABASE_URL: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/mockverse"
     REDIS_URL: str = "redis://localhost:6379/0"
     ENVIRONMENT: str = "development"
 
