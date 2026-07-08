@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-space: #0D1117;
+  --color-brand-midnight: #1C2333;
+  --color-brand-slate: #3B4252;
+  --color-brand-amber: #F5A623;
+  --color-brand-ash: #EDEDED;
+}
+
+/* Base custom styles to ensure clean global dark mode rendering */
+body {
+  background-color: #0D1117;
+  color: #EDEDED;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Smooth fadeIn utility animation class */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}

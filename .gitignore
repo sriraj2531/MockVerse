@@ -1,0 +1,35 @@
+# Prerequisites
+*.pyc
+__pycache__/
+.pytest_cache/
+*.log
+
+# Environments
+.env
+.env.*
+venv/
+ENV/
+env/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Project-specific secrets
+backend/app/firebase_secret.json
+firebase_secret.json
